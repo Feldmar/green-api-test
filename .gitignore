@@ -13,7 +13,6 @@ dist-ssr
 server/data
 server/data/users
 *.local
-readme.md
 
 # Editor directories and files
 .vscode/*
