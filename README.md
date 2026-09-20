@@ -1,6 +1,8 @@
 MAX Chat
 Веб-клиент для мессенджера MAX, работающий через GreenAPI. Позволяет подключаться к инстансу по idInstance и apiTokenInstance, создавать чат по номеру телефона, отправлять и получать сообщения в реальном времени через long-polling.
 
+Демо версия: https://green-api-test-by-feldmar.netlify.app/ 
+
 Возможности
 - Подключение к GreenAPI по idInstance + apiTokenInstance
 

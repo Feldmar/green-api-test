@@ -17,13 +17,14 @@ npm run dev
 Приложение откроется на http://localhost:5173.
 
 Использование
+Демо версия: https://green-api-test-by-feldmar.netlify.app/ 
+
 Подключение к GreenAPI
 Зайдите в личный кабинет green-api.com.
 
 Создайте инстанс и скопируйте:
 
 idInstance
-
 apiTokenInstance
 
 Откройте приложение и введите эти данные в форму подключения.
