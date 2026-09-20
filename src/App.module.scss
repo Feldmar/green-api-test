@@ -1,0 +1,61 @@
+@use './styles/tokens' as *;
+
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $color-bg;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-md $space-lg;
+  border-bottom: 1px solid $color-border;
+  border-radius: 0 !important;
+}
+
+.logo {
+  background: $color-primary !important;
+  font-weight: 700;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: $space-lg;
+}
+
+.newChatCard {
+  width: 100%;
+  max-width: 720px;
+  padding: $space-xl;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg !important;
+  align-self: flex-start;
+}
+
+.chat {
+  width: 100%;
+  max-width: 900px;
+  display: flex !important;
+  flex-direction: column;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg !important;
+  overflow: hidden;
+  min-height: 0;
+  max-height: calc(100vh - #{$space-lg * 2} - 64px);
+}
+
+.chatHeader {
+  padding: $space-md $space-lg;
+  border-bottom: 1px solid $color-border;
+  background: $color-surface;
+}
+
+.chatError {
+  margin: $space-sm $space-md 0;
+}

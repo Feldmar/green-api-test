@@ -1,0 +1,7 @@
+@use '../../styles/tokens' as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+}
